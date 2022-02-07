@@ -1,0 +1,131 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(166, 227, 231);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hijab101Box {
+background-image: url("assets/Hijab101.jpeg");
+color: salmon;
+text-align: center;
+margin-left: -10px;
+margin-right: -10px;
+padding: 10px;
+width: 100%;
+height: 400px;
+background-color: rgb(19, 29, 65, 0.9);
+}
+
+main {
+  color: rgb(19, 29, 65);
+  margin: 10px;
+  padding: 10px;
+}
+
+.hijab101Bottom {
+background-color: rgb(19, 29, 65);
+color: salmon;
+text-align: center;
+margin-left: -20px;
+margin-right: -20px;
+margin-bottom: -20px;
+padding: 10px;
+width: auto;
+height: auto;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  background-color: rgb(19, 29, 65, 0.9);
+  font-size: 270%;
+}
+h2 {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(19, 29, 65, 0.9);
+  font-size: 200%;
+}
+h3 {
+  margin: 10px;
+  padding: 10px;
+  font-size: 160%;
+}
+h4 {
+  margin: 10px;
+  padding: 10px;
+  font-size: 150%;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: rgb(19, 29, 65);
+  padding: 0px;
+  margin: 0px;
+  color: salmon;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  float: left;
+}
+li a {
+  display: flex;
+  justify-content: center;
+  color: salmon;
+  background-color: rgb(19, 29, 65);
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+li a:hover {
+  background-color: salmon;
+  color: rgb(19, 29, 65);
+}
+
+/* STYLE BUTTONS */
+#scrollToTopBtn {
+  background-color: salmon;
+  border: none;
+  border-radius: 25px;
+  color: rgb(166, 227, 231);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
